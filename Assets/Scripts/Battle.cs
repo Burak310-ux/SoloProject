@@ -16,6 +16,7 @@ public class Battle : MonoBehaviour
         player.Learn(new DamageMove("TACKLE", "Normal", 35));
         player.Learn(new DamageMove("EMBER", "Fire", 40));
         player.Learn(new HealMove("POTION", 10));
+                player.Learn(new DrainMove("LEECH BITE", "Normal", 30));
 
         Beast first = new Beast("MOSSBUG", "Grass", 5, 18, 9, 8);
         first.Learn(new DamageMove("TACKLE", "Normal", 35));
