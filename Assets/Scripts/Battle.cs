@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections.Generic;
+// Battle: runs the game - menu, turns, opponents in order, win and lose.
 public class Battle : MonoBehaviour
 {
         Beast player;

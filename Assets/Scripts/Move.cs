@@ -1,5 +1,7 @@
 using UnityEngine;
 
+// Move: base class for every move; has a name and a virtual Apply.
+
 
 public class Move
 {

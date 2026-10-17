@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// HealMove: a Move that heals the user, never above max HP.
 public class HealMove : Move
 {
     public int Amount { get; private set; }

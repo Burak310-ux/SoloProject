@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// DamageMove: a Move that deals damage using the formula and the type triangle.
 public class DamageMove : Move
 {
     public string Type { get; private set; }

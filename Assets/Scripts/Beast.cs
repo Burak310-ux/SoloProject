@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-
+// Beast: one creature with its stats, HP and moves; protects its own HP.
 public class Beast
 {
        public string Name { get; private set; }
